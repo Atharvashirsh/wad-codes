@@ -1,0 +1,10 @@
+.container{
+    padding: 3px;
+}
+
+.box{
+    background-color: aquamarine;
+    border: solid 2px white;
+    display: grid;
+    place-items: center;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>JQUERY MOBILE WEBPAGE</title>
+        <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div></div>
+        <div data-role="page" id="home_page">
+            <div data-role="header" data-theme="b">
+                <h1>Home</h1>
+            </div>
+
+            <div role="main" class="ui-content">
+                <center>
+                    <h1>Hello</h1>
+                    <h1>Atharvashirsh here.</h1>
+                    <p>Welcome to my page</p>
+                </center>
+                <div class="container">
+                    <div class="ui-grid-b">
+                        <div class="ui-block-a box"><h1>1</h1></div>
+                        <div class="ui-block-b box"><h1>2</h1></div>
+                        <div class="ui-block-c box"><h1>3</h1></div>
+                    </div>
+
+                    <div class="ui-grid-b">
+                        <div class="ui-block-a box"><h1>4</h1></div>
+                        <div class="ui-block-b box"><h1>5</h1></div>
+                        <div class="ui-block-c box"><h1>6</h1></div>
+                    </div>
+
+                    <div class="ui-grid-b">
+                        <div class="ui-block-a box"><h1>7</h1></div>
+                        <div class="ui-block-b box"><h1>8</h1></div>
+                        <div class="ui-block-c box"><h1>9</h1></div>
+                    </div>
+                </div>
+                <p>Click <a href="#second_page">here</a> to go to next page</p>
+            </div>
+        </div>
+
+        <div data-role="page" id="second_page">
+            <div data-role="header" data-theme="b">
+                <h1>Final page</h1>
+            </div>
+
+            <div role="main" class="ui-content">
+                <center>
+                    <h3>This is the ending page.</h3>
+                    <img src="images/good-bye.jpg" alt="goodbye" width="100%" />
+                    <p>Click <a href="#home_page">here</a> to go back to home.</p>
+                </center>
+            </div>
+        </div>
+    </body>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</html>
